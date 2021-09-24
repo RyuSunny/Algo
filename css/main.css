@@ -1,0 +1,76 @@
+* {
+  font-family: inherit;
+}
+
+.backImg {
+  position: relative;
+  background-color: #eebfc0;
+}
+
+.back1 {
+  opacity: 40%;
+}
+
+#textContents {
+  position: absolute;
+  top: 10%;
+  left: 0;
+
+  justify-content: center;
+}
+
+#centerA {
+  position: absolute;
+
+  transform: translate(20%);
+  text-align: center;
+}
+
+.Tossing {
+  visibility: hidden;
+}
+
+h1 {
+  color: #ff6666;
+  font-weight: 700;
+  font-size: 24px;
+}
+h2 {
+  color: #2342a6;
+  font-family: Futura PT;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 78px;
+}
+
+h3 {
+  font-size: 40px;
+  line-height: 51px;
+
+  text-align: center;
+
+  color: #2342a6;
+}
+
+#openText {
+  padding-top: 280px;
+}
+
+#countDown {
+  padding-top: 8px;
+}
+
+#Dday {
+  padding-top: 40px;
+}
+
+#pinkT {
+  padding-top: 24px;
+}
+
+h4 {
+  color: #ff6666;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+}
