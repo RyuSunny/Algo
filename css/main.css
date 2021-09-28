@@ -39,8 +39,15 @@ h4 {
 }
 
 #logos {
-  margin-bottom: 3rem;
+  margin-bottom: 1.5rem;
 }
 #pinkT {
-  margin-bottom: 4rem;
+  margin-bottom: 8rem;
+}
+#Dday {
+  margin-bottom: 0, 5rem;
+}
+
+#countDown {
+  margin-bottom: 16rem;
 }
