@@ -30,7 +30,7 @@ h4 {
   text-align: center;
   width: 100vw;
   height: 100vh;
-  background-image: url(/images/backGroundApp.jpg);
+  background-image: url(./images/backGroundApp.jpg);
   background-position: center center;
   background-size: cover;
   display: flex;
