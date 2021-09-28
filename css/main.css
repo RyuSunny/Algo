@@ -1,35 +1,8 @@
-* {
-  font-family: inherit;
+html {
+  font-family: futura-pt, source-han-sans-korean, sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
-
-.backImg {
-  position: relative;
-  background-color: #eebfc0;
-}
-
-.back1 {
-  opacity: 40%;
-}
-
-#textContents {
-  position: absolute;
-  top: 10%;
-  left: 0;
-
-  justify-content: center;
-}
-
-#centerA {
-  position: absolute;
-
-  transform: translate(20%);
-  text-align: center;
-}
-
-.Tossing {
-  visibility: hidden;
-}
-
 h1 {
   color: #ff6666;
   font-weight: 700;
@@ -37,40 +10,37 @@ h1 {
 }
 h2 {
   color: #2342a6;
-  font-family: Futura PT;
-  font-style: normal;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 78px;
 }
 
 h3 {
   font-size: 40px;
   line-height: 51px;
-
-  text-align: center;
-
   color: #2342a6;
-}
-
-#openText {
-  padding-top: 280px;
-}
-
-#countDown {
-  padding-top: 8px;
-}
-
-#Dday {
-  padding-top: 40px;
-}
-
-#pinkT {
-  padding-top: 24px;
 }
 
 h4 {
   color: #ff6666;
   font-size: 16px;
   line-height: 20px;
+}
+
+.container {
   text-align: center;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(/images/backGroundApp.jpg);
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#logos {
+  margin-bottom: 3rem;
+}
+#pinkT {
+  margin-bottom: 4rem;
 }
